@@ -13,6 +13,8 @@
 		7588906026EC430C00F1A545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7588905E26EC430C00F1A545 /* Main.storyboard */; };
 		7588906226EC431100F1A545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7588906126EC431100F1A545 /* Assets.xcassets */; };
 		7588906526EC431100F1A545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7588906326EC431100F1A545 /* LaunchScreen.storyboard */; };
+		7588907126EC493D00F1A545 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7588906F26EC493D00F1A545 /* CollectionViewCell.swift */; };
+		7588907226EC493D00F1A545 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7588907026EC493D00F1A545 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7588906126EC431100F1A545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7588906426EC431100F1A545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7588906626EC431100F1A545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7588906F26EC493D00F1A545 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7588907026EC493D00F1A545 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				7588905826EC430C00F1A545 /* AppDelegate.swift */,
 				7588905A26EC430C00F1A545 /* SceneDelegate.swift */,
 				7588905C26EC430C00F1A545 /* ViewController.swift */,
+				7588906C26EC48E900F1A545 /* Xibs */,
 				7588905E26EC430C00F1A545 /* Main.storyboard */,
 				7588906126EC431100F1A545 /* Assets.xcassets */,
 				7588906326EC431100F1A545 /* LaunchScreen.storyboard */,
 				7588906626EC431100F1A545 /* Info.plist */,
 			);
 			path = PhotoKitCustomUIPractice;
+			sourceTree = "<group>";
+		};
+		7588906C26EC48E900F1A545 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				7588906F26EC493D00F1A545 /* CollectionViewCell.swift */,
+				7588907026EC493D00F1A545 /* CollectionViewCell.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			files = (
 				7588906526EC431100F1A545 /* LaunchScreen.storyboard in Resources */,
 				7588906226EC431100F1A545 /* Assets.xcassets in Resources */,
+				7588907226EC493D00F1A545 /* CollectionViewCell.xib in Resources */,
 				7588906026EC430C00F1A545 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			files = (
 				7588905D26EC430C00F1A545 /* ViewController.swift in Sources */,
 				7588905926EC430C00F1A545 /* AppDelegate.swift in Sources */,
+				7588907126EC493D00F1A545 /* CollectionViewCell.swift in Sources */,
 				7588905B26EC430C00F1A545 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
